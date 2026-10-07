@@ -62,7 +62,7 @@ The table below lists leading managed commercial video platforms and media CDNs,
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are top-tier open-source projects for self-hosted media storage, live video streaming servers, WebRTC infrastructure, and media processing frameworks — sorted strictly by **GitHub Stars_Count (descending)**.
+Below are top-tier open-source projects for self-hosted media storage, live video streaming servers, WebRTC infrastructure, and media processing frameworks — sorted strictly by **GitHub_Stars_Count (descending)**.
 
 ### 📹 Live Streaming Servers
 
