@@ -62,42 +62,42 @@ The table below lists leading managed commercial video platforms and media CDNs,
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are top-tier open-source projects for self-hosted media storage, live video streaming servers, WebRTC infrastructure, and media processing frameworks — sorted strictly by **GitHub Star Count (descending)**.
+Below are top-tier open-source projects for self-hosted media storage, live video streaming servers, WebRTC infrastructure, and media processing frameworks — sorted strictly by **GitHub Stars_Count (descending)**.
 
 ### 📹 Live Streaming Servers
 
-- [![GitHub stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers) **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers) **[SRS (Simple Realtime Server)](https://github.com/ossrs/srs)**  
   **The leading open-source live streaming server** (MIT License). High-performance, production-ready server supporting RTMP, HLS, SRT, WebRTC, and DASH. Scalable to millions of concurrent viewers. 🌟
 
-- [![GitHub stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers) **[MediaMTX](https://github.com/bluenviron/mediamtx)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers) **[MediaMTX](https://github.com/bluenviron/mediamtx)**  
   **Zero-dependency real-time media server & proxy** (MIT License). Ready-to-use single binary supporting RTSP, RTMP, HLS, LL-HLS, WebRTC, and SRT. Ideal for edge and IoT streaming. 🛰️
 
-- [![GitHub stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers) **[Nginx-RTMP Module](https://github.com/arut/nginx-rtmp-module)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers) **[Nginx-RTMP Module](https://github.com/arut/nginx-rtmp-module)**  
   **Classic Nginx extension for RTMP/HLS live streaming** (BSD-2-Clause License). Reliable RTMP ingestion with automated HLS and DASH stream segmenting. 🔌
 
-- [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers) **[Owncast](https://github.com/owncast/owncast)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers) **[Owncast](https://github.com/owncast/owncast)**  
   **Self-hosted independent live streaming platform with built-in chat** (MIT License). Take full ownership of your live broadcasts without relying on Twitch or YouTube. 🎙️
 
-- [![GitHub stars](https://img.shields.io/github/stars/datarhei/restreamer?style=social&color=white)](https://github.com/datarhei/restreamer/stargazers) **[Restreamer](https://github.com/datarhei/restreamer)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/datarhei/restreamer?style=social&color=white)](https://github.com/datarhei/restreamer/stargazers) **[Restreamer](https://github.com/datarhei/restreamer)**  
   **Self-hosted live video streaming server** (Apache-2.0 License). Easy-to-use web UI to stream video directly to your site or multi-publish to YouTube, Twitch, and Facebook. 📹
 
-- [![GitHub stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers) **[Ant Media Server](https://github.com/ant-media/Ant-Media-Server)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers) **[Ant Media Server](https://github.com/ant-media/Ant-Media-Server)**  
   **Ultra-low latency WebRTC streaming engine** (Apache-2.0 License). Delivers ~0.5s sub-second latency with adaptive bitrate streaming, recording, and auto-scaling. ⏱️
 
-- [![GitHub stars](https://img.shields.io/github/stars/AirenSoft/OvenMediaEngine?style=social&color=white)](https://github.com/AirenSoft/OvenMediaEngine/stargazers) **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/AirenSoft/OvenMediaEngine?style=social&color=white)](https://github.com/AirenSoft/OvenMediaEngine/stargazers) **[OvenMediaEngine](https://github.com/AirenSoft/OvenMediaEngine)**  
   **Sub-second low-latency streaming server** (AGPL-3.0 License). Built from scratch for WebRTC and Low-Latency HLS (LL-HLS) streaming to large audiences. ⚡
 
 ---
 
 ### 🗄️ Media Storage & Origin Servers
 
-- [![GitHub stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) **[MinIO](https://github.com/minio/minio)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) **[MinIO](https://github.com/minio/minio)**  
   **De-facto standard S3-compatible high-performance object storage** (AGPL-3.0 License). Ideal for media origin storage, cloud-native video chunking, and high-throughput video streaming backends. 💾
 
-- [![GitHub stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers) **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers) **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)**  
   **Fast, highly scalable distributed blob & object file system** (Apache-2.0 License). Handles billions of small files and large video segments efficiently with S3 API compatibility. 🌊
 
-- [![GitHub stars](https://img.shields.io/github/stars/ceph/ceph?style=social&color=white)](https://github.com/ceph/ceph/stargazers) **[Ceph](https://github.com/ceph/ceph)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/ceph/ceph?style=social&color=white)](https://github.com/ceph/ceph/stargazers) **[Ceph](https://github.com/ceph/ceph)**  
   **Unified distributed storage cluster** (LGPL-2.1 License). Object, block, and file storage designed for petabyte-scale media repositories and cloud infrastructure. 🐋
 
 - **[Garage](https://git.deuxfleurs.fr/Deuxfleurs/garage)** *(Self-hosted Git)*  
@@ -107,63 +107,63 @@ Below are top-tier open-source projects for self-hosted media storage, live vide
 
 ### ⚙️ Transcoding, Packaging & Frameworks
 
-- [![GitHub stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white)](https://github.com/obsproject/obs-studio/stargazers) **[OBS Studio](https://github.com/obsproject/obs-studio)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white)](https://github.com/obsproject/obs-studio/stargazers) **[OBS Studio](https://github.com/obsproject/obs-studio)**  
   **Industry standard software for video recording and live broadcasting** (GPL-2.0 License). Powerful scene composition, hardware encoding, and multi-protocol output. 🎥
 
-- [![GitHub stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers) **[FFmpeg](https://github.com/FFmpeg/FFmpeg)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers) **[FFmpeg](https://github.com/FFmpeg/FFmpeg)**  
   **The foundational multimedia framework** (LGPL/GPL License). Core CLI engine behind virtually all video transcoding, filtering, and streaming pipelines worldwide. 🛠️
 
-- [![GitHub stars](https://img.shields.io/github/stars/gstreamer/gstreamer?style=social&color=white)](https://github.com/gstreamer/gstreamer/stargazers) **[GStreamer](https://github.com/gstreamer/gstreamer)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/gstreamer/gstreamer?style=social&color=white)](https://github.com/gstreamer/gstreamer/stargazers) **[GStreamer](https://github.com/gstreamer/gstreamer)**  
   **Pipeline-based multimedia framework** (LGPL License). Construct complex real-time video processing, hardware-accelerated transcoding, and streaming pipelines. ⛓️
 
-- [![GitHub stars](https://img.shields.io/github/stars/gpac/gpac?style=social&color=white)](https://github.com/gpac/gpac/stargazers) **[GPAC](https://github.com/gpac/gpac)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/gpac/gpac?style=social&color=white)](https://github.com/gpac/gpac/stargazers) **[GPAC](https://github.com/gpac/gpac)**  
   **Modular multimedia framework & MP4Box tooling** (LGPL-2.1 License). Packaging, inspection, encryption, DASH/HLS multiplexing, and playback utilities. 📦
 
-- [![GitHub stars](https://img.shields.io/github/stars/shaka-project/shaka-packager?style=social&color=white)](https://github.com/shaka-project/shaka-packager/stargazers) **[Shaka Packager](https://github.com/shaka-project/shaka-packager)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/shaka-project/shaka-packager?style=social&color=white)](https://github.com/shaka-project/shaka-packager/stargazers) **[Shaka Packager](https://github.com/shaka-project/shaka-packager)**  
   **Media packaging SDK by Google** (BSD-3-Clause License). Prepares video for VOD and Live delivery using DASH, HLS, and CMAF with DRM support. 🔒
 
-- [![GitHub stars](https://img.shields.io/github/stars/axiomatic-systems/Bento4?style=social&color=white)](https://github.com/axiomatic-systems/Bento4/stargazers) **[Bento4](https://github.com/axiomatic-systems/Bento4)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/axiomatic-systems/Bento4?style=social&color=white)](https://github.com/axiomatic-systems/Bento4/stargazers) **[Bento4](https://github.com/axiomatic-systems/Bento4)**  
   **Full-featured C++ MP4 format library & DASH/HLS tools** (GPL-3.0 License). Advanced segmenting, encryption, and DRM packaging for modern video delivery. 🧩
 
 ---
 
 ### ⚡ WebRTC & Real-Time Video
 
-- [![GitHub stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers) **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers) **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)**  
   **Leading open-source video conferencing app** (Apache-2.0 License). Fully encrypted, scalable WebRTC multi-party video meetings with Jitsi Videobridge (SFU). 💬
 
-- [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers) **[LiveKit](https://github.com/livekit/livekit)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers) **[LiveKit](https://github.com/livekit/livekit)**  
   **High-scale WebRTC developer platform** (Apache-2.0 License). Distributed SFU core with cross-platform client SDKs for real-time video, audio, and AI stream interactions. 🎙️
 
-- [![GitHub stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers) **[Pion WebRTC](https://github.com/pion/webrtc)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers) **[Pion WebRTC](https://github.com/pion/webrtc)**  
   **Pure Go implementation of WebRTC API** (MIT License). Native, lightweight WebRTC stack widely used in Go microservices, proxies, and custom media SFUs. 🐹
 
-- [![GitHub stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers) **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers) **[Janus WebRTC Server](https://github.com/meetecho/janus-gateway)**  
   **General-purpose WebRTC gateway** (GPL-3.0 License). Lightweight C core with pluggable architecture for video streaming, conferencing, and SIP bridging. 🚪
 
-- [![GitHub stars](https://img.shields.io/github/stars/versatica/mediasoup?style=social&color=white)](https://github.com/versatica/mediasoup/stargazers) **[mediasoup](https://github.com/versatica/mediasoup)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/versatica/mediasoup?style=social&color=white)](https://github.com/versatica/mediasoup/stargazers) **[mediasoup](https://github.com/versatica/mediasoup)**  
   **Powerful WebRTC SFU library** (ISC License). High-performance C++ core with Node.js and Rust bindings designed for integration into custom servers. 🍲
 
-- [![GitHub stars](https://img.shields.io/github/stars/Kurento/kurento-media-server?style=social&color=white)](https://github.com/Kurento/kurento-media-server/stargazers) **[Kurento](https://github.com/Kurento/kurento-media-server)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/Kurento/kurento-media-server?style=social&color=white)](https://github.com/Kurento/kurento-media-server/stargazers) **[Kurento](https://github.com/Kurento/kurento-media-server)**  
   **WebRTC media server & API framework** (Apache-2.0 License). Simplifies video processing, recording, and computer vision augmented streaming pipelines. 👁️
 
-- [![GitHub stars](https://img.shields.io/github/stars/OpenVidu/openvidu?style=social&color=white)](https://github.com/OpenVidu/openvidu/stargazers) **[OpenVidu](https://github.com/OpenVidu/openvidu)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/OpenVidu/openvidu?style=social&color=white)](https://github.com/OpenVidu/openvidu/stargazers) **[OpenVidu](https://github.com/OpenVidu/openvidu)**  
   **Developer platform for video call integration** (Apache-2.0 License). Provides high-level abstractions over Kurento and AWS/WebRTC engines. 📱
 
 ---
 
 ### 📺 Media Players & Client SDKs
 
-- [![GitHub stars](https://img.shields.io/github/stars/videojs/video.js?style=social&color=white)](https://github.com/videojs/video.js/stargazers) **[Video.js](https://github.com/videojs/video.js)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/videojs/video.js?style=social&color=white)](https://github.com/videojs/video.js/stargazers) **[Video.js](https://github.com/videojs/video.js)**  
   **World's most popular HTML5 video player framework** (Apache-2.0 License). Extensible player plugin ecosystem supporting HLS, DASH, skinning, and analytics. 🎮
 
-- [![GitHub stars](https://img.shields.io/github/stars/video-dev/hls.js?style=social&color=white)](https://github.com/video-dev/hls.js/stargazers) **[hls.js](https://github.com/video-dev/hls.js)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/video-dev/hls.js?style=social&color=white)](https://github.com/video-dev/hls.js/stargazers) **[hls.js](https://github.com/video-dev/hls.js)**  
   **JavaScript HLS client library** (Apache-2.0 License). Relies on HTML5 video and Media Source Extensions (MSE) to playback HTTP Live Streaming without plugins. 📼
 
-- [![GitHub stars](https://img.shields.io/github/stars/shaka-project/shaka-player?style=social&color=white)](https://github.com/shaka-project/shaka-player/stargazers) **[Shaka Player](https://github.com/shaka-project/shaka-player)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/shaka-project/shaka-player?style=social&color=white)](https://github.com/shaka-project/shaka-player/stargazers) **[Shaka Player](https://github.com/shaka-project/shaka-player)**  
   **JavaScript web player by Google for adaptive media** (BSD-3-Clause License). Plays DASH and HLS with robust EME DRM license integration. 🍿
 
-- [![GitHub stars](https://img.shields.io/github/stars/Dash-Industry-Forum/dash.js?style=social&color=white)](https://github.com/Dash-Industry-Forum/dash.js/stargazers) **[dash.js](https://github.com/Dash-Industry-Forum/dash.js)**  
+- [![GitHub_Stars](https://img.shields.io/github/stars/Dash-Industry-Forum/dash.js?style=social&color=white)](https://github.com/Dash-Industry-Forum/dash.js/stargazers) **[dash.js](https://github.com/Dash-Industry-Forum/dash.js)**  
   **Official reference client implementation for MPEG-DASH** (BSD-3-Clause License). Industry standard for playing DASH streams natively in browsers. 📐
 
 ---
