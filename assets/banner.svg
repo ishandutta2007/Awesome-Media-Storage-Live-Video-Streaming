@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c16" />
+      <stop offset="50%" stop-color="#121829" />
+      <stop offset="100%" stop-color="#1a0f2e" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f00ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#e100ff" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+    </pattern>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glow-heavy" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Drop Shadow for Text Overlay Container -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    /* CSS Animations for Dynamic Dynamic/Animated Background Elements */
+    @keyframes pulse-orb-1 {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+      50% { transform: translate(30px, -20px) scale(1.15); opacity: 0.7; }
+    }
+
+    @keyframes pulse-orb-2 {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+      50% { transform: translate(-25px, 25px) scale(1.2); opacity: 0.6; }
+    }
+
+    @keyframes wave-flow-1 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(-60px); }
+      100% { transform: translateX(0); }
+    }
+
+    @keyframes wave-flow-2 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(60px); }
+      100% { transform: translateX(0); }
+    }
+
+    @keyframes live-ping {
+      0% { r: 6px; opacity: 0.9; }
+      100% { r: 18px; opacity: 0; }
+    }
+
+    @keyframes signal-dash {
+      to { stroke-dashoffset: -40; }
+    }
+
+    @keyframes float-card {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .orb-1 { animation: pulse-orb-1 8s ease-in-out infinite; transform-origin: center; }
+    .orb-2 { animation: pulse-orb-2 10s ease-in-out infinite; transform-origin: center; }
+    .wave-1 { animation: wave-flow-1 12s ease-in-out infinite; }
+    .wave-2 { animation: wave-flow-2 15s ease-in-out infinite; }
+    .ping { animation: live-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+    .stream-line { stroke-dasharray: 8 8; animation: signal-dash 2s linear infinite; }
+    .floating-card-1 { animation: float-card 6s ease-in-out infinite; }
+    .floating-card-2 { animation: float-card 7s ease-in-out infinite 1s; }
+  </style>
+
+  <!-- Base Background Layer -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" rx="16" />
+  <rect width="1200" height="360" fill="url(#grid)" rx="16" />
+
+  <!-- DYNAMIC BACKGROUND ELEMENTS (Positioned behind content & blurred/low opacity) -->
+  <g id="dynamic-background-lights">
+    <!-- Glowing Orbs in Background -->
+    <circle class="orb-1" cx="200" cy="100" r="180" fill="url(#cyan-glow)" filter="url(#glow-heavy)" />
+    <circle class="orb-2" cx="1000" cy="260" r="220" fill="url(#purple-glow)" filter="url(#glow-heavy)" />
+
+    <!-- Animated Wave Stream Lines (Background dynamic flow) -->
+    <g class="wave-1" opacity="0.25">
+      <path d="M-100 280 Q 200 180, 500 290 T 1100 220 T 1300 300" fill="none" stroke="#00f2fe" stroke-width="3" filter="url(#glow-light)" />
+      <path d="M-100 300 Q 250 200, 600 310 T 1150 240 T 1350 320" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    </g>
+
+    <g class="wave-2" opacity="0.2">
+      <path d="M-100 80 Q 300 200, 700 90 T 1250 140" fill="none" stroke="#9333ea" stroke-width="3" filter="url(#glow-light)" />
+      <path d="M-100 100 Q 350 220, 750 110 T 1300 160" fill="none" stroke="#c084fc" stroke-width="1.5" />
+    </g>
+
+    <!-- Animated Streaming Data Nodes in Background Left & Right -->
+    <g class="floating-card-1" opacity="0.4" transform="translate(60, 40)">
+      <rect width="180" height="70" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <text x="15" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">RTMP / WebRTC Ingest</text>
+      <text x="15" y="48" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Latency: &lt; 500ms</text>
+      <path class="stream-line" d="M 180 35 L 260 35" stroke="#38bdf8" stroke-width="2" />
+    </g>
+
+    <g class="floating-card-2" opacity="0.4" transform="translate(960, 240)">
+      <rect width="180" height="70" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <text x="15" y="30" fill="#a855f7" font-family="system-ui, sans-serif" font-size="11" font-weight="600">HLS / DASH Origin</text>
+      <text x="15" y="48" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Storage: S3 / MinIO</text>
+      <path class="stream-line" d="M -80 35 L 0 35" stroke="#a855f7" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- FOREGROUND CONTENT CONTAINER (Ensures high contrast, total legibility & clear separation) -->
+  <g id="foreground-content" filter="url(#shadow)">
+    <!-- Semi-transparent Center Backdrop Card to completely shield text from background graphics -->
+    <rect x="180" y="45" width="840" height="270" rx="20" fill="rgba(10, 15, 30, 0.75)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+
+    <!-- LIVE Badge -->
+    <g transform="translate(540, 75)">
+      <rect x="0" y="0" width="120" height="28" rx="14" fill="rgba(239, 68, 68, 0.15)" stroke="rgba(239, 68, 68, 0.4)" stroke-width="1" />
+      <circle class="ping" cx="20" cy="14" r="6" fill="#ef4444" />
+      <circle cx="20" cy="14" r="4" fill="#ef4444" />
+      <text x="36" y="18" fill="#fca5a5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" text-anchor="middle" fill="url(#title-grad)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
+      Awesome Media Storage &amp; Live Streaming
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="182" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400">
+      Curated Directory for WebRTC, Cloud Origins, Low-Latency Servers &amp; Transcoding
+    </text>
+
+    <!-- Feature Pills in Foreground -->
+    <g transform="translate(315, 220)">
+      <!-- Pill 1: WebRTC & SRT -->
+      <g transform="translate(0, 0)">
+        <rect width="170" height="34" rx="17" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+        <text x="85" y="21" text-anchor="middle" fill="#7dd3fc" font-family="system-ui, sans-serif" font-size="12" font-weight="600">⚡ Ultra Low-Latency</text>
+      </g>
+
+      <!-- Pill 2: Media Storage -->
+      <g transform="translate(185, 0)">
+        <rect width="190" height="34" rx="17" fill="rgba(168, 85, 247, 0.1)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1" />
+        <text x="95" y="21" text-anchor="middle" fill="#c084fc" font-family="system-ui, sans-serif" font-size="12" font-weight="600">🗄️ S3 &amp; Distributed Origin</text>
+      </g>
+
+      <!-- Pill 3: Transcoding & Video -->
+      <g transform="translate(390, 0)">
+        <rect width="180" height="34" rx="17" fill="rgba(52, 211, 153, 0.1)" stroke="rgba(52, 211, 153, 0.3)" stroke-width="1" />
+        <text x="90" y="21" text-anchor="middle" fill="#6ee7b7" font-family="system-ui, sans-serif" font-size="12" font-weight="600">🎬 HLS / DASH / FFmpeg</text>
+      </g>
+    </g>
+  </g>
+</svg>
